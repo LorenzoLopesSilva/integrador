@@ -1,6 +1,7 @@
 :root{
     --cor-primaria: rgb(0, 81, 255);
     --cor-secundaria: rgb(1, 1, 156);
+    --fundo: rgb(230, 230, 230);
 }
 
 *{
@@ -83,8 +84,29 @@
     object-fit: contain;
 }
 
+.banners{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--fundo);
+    padding: 3vw 0;
+}
 
+.banners-figure{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
+.banners-figure img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.banners-figure :hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
 
 
 
