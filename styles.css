@@ -9,7 +9,9 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color: var(--fundo);
+}
 .header-titulo{
     background-color: rgb(1, 1, 156);
     color: aliceblue;
@@ -59,13 +61,12 @@
 .linha-produtos{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(230, 230, 230);
     padding: 20px 5vw;
 }
 
 .linha-produtos .card-produto{
     background-color: white;
-    width: 20%;
+    width: 15%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     text-align: center;
@@ -108,6 +109,10 @@
     transition: 0.3s;
 }
 
+.destaques{
+    margin: 5vw 0 1vw 0;
+    padding: 10px;
+}
 
 
 
