@@ -1,3 +1,8 @@
+:root{
+    --cor-primaria: rgb(0, 81, 255);
+    --cor-secundaria: rgb(1, 1, 156);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,15 +29,17 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 2vw;
+    
 }
 
-.header-nav ul li a:hover{
+.header-nav ul li a:hover {
     color: rgb(0, 0, 0);
 }
 
 .inicio-banner{
     background-color: lightgray;
-    height: 20vh;
+    height: 20vw;
     display: flex;
 }
 .inicio-banner img{
@@ -40,8 +47,58 @@
     object-fit: cover;
 }
 
+.inicio-melhores-produtos{
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    background-color: var(--cor-primaria);
+    padding: 1.5vw 0;
+}
+
+.linha-produtos{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 230, 230);
+    padding: 20px 5vw;
+}
+
+.linha-produtos .card-produto{
+    background-color: white;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7vw;
+}
+
+.linha-produtos .card-produto:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.linha-produtos .card-produto img{
+    width: 80%;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .inicio-categorias{
-    background-color: rgb(141, 141, 141);
+    background-color: rgb(74, 60, 128);
     padding: 10px 0;
 }
 
@@ -54,5 +111,20 @@
 .inicio-categorias ul li a{
     color: white;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
 
+}
+
+.inicio-categorias ul li a:hover{
+    color: rgb(209, 221, 255);
+}
+.inicio-categorias ul li a img{
+    height: 6vw;
+}
+.inicio-categorias ul li a img:hover{
+    transform: scale(1.1);
 }
