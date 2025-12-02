@@ -175,6 +175,8 @@ body{
     padding: 7vw 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    max-width: 600px;
+    margin-top: 30px;
 }
 
 .categorias-figure{
@@ -205,4 +207,11 @@ body{
 
 .categorias-figure:hover path{
     stroke: rgb(255, 255, 255);
+}
+
+.hover-verde:hover {
+    background-color: green;
+}
+.hover-primary:hover {
+    background-color: var(--cor-primaria);
 }
