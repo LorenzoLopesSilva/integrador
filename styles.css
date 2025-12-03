@@ -190,13 +190,8 @@ body{
     border-radius: 100%;
 }
 
-.categorias-figure svg{
-    height: 15vw;
-    max-height: 100px;
-}
-
-.categorias-figure svg path{
-    stroke: rgb(0, 0, 0);
+.categorias-figure img{
+    height: 100px;
 }
 
 .categorias-figure:hover{
@@ -205,9 +200,7 @@ body{
     background-color: var(--cor-secundaria);
 }
 
-.categorias-figure:hover path{
-    stroke: rgb(255, 255, 255);
-}
+
 
 .hover-verde:hover {
     background-color: green;
