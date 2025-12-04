@@ -42,7 +42,7 @@ body{
 
 .inicio-banner{
     background-color: lightgray;
-    height: 20vw;
+    height: 30vw;
     display: flex;
 }
 .inicio-banner img{
@@ -203,7 +203,7 @@ body{
 
 
 .hover-verde:hover {
-    background-color: green;
+    background-color: rgb(20, 175, 0);
 }
 .hover-primary:hover {
     background-color: var(--cor-primaria);
