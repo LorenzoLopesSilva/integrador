@@ -12,23 +12,23 @@
 body{
     background-color: var(--fundo);
 }
-.header-titulo{
+.headerTitulo{
     background-color: rgb(1, 1, 156);
     color: aliceblue;
     padding: 20px;
 }
-.header-nav{
+.headerNav{
     background-color: rgb(0, 81, 255);   
 }
 
-.header-nav ul{
+.headerNav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
 }
 
-.header-nav ul li a{
+.headerNav ul li a{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -36,21 +36,21 @@ body{
     
 }
 
-.header-nav ul li a:hover {
+.headerNav ul li a:hover {
     color: rgb(0, 0, 0);
 }
 
-.inicio-banner{
+.inicioBanner{
     background-color: lightgray;
     height: 30vw;
     display: flex;
 }
-.inicio-banner img{
+.inicioBanner img{
     width: 100%;
     object-fit: cover;
 }
 
-.inicio-melhores-produtos{
+.inicioMelhoresProdutos{
     text-align: center;
     font-size: 2vw;
     color: rgb(255, 255, 255);
@@ -58,13 +58,13 @@ body{
     padding: 1.5vw 0;
 }
 
-.linha-produtos{
+.linhaProdutos{
     display: flex;
     justify-content: space-around;
     padding: 20px 5vw;
 }
 
-.linha-produtos .card-produto{
+.linhaProdutos .cardProduto{
     background-color: white;
     width: 15%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -74,13 +74,13 @@ body{
     font-size: 1.7vw;
 }
 
-.linha-produtos .card-produto:hover{
+.linhaProdutos .cardProduto:hover{
     transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.linha-produtos .card-produto img{
+.linhaProdutos .cardProduto img{
     width: 80%;
     object-fit: contain;
 }
@@ -92,19 +92,19 @@ body{
     padding: 3vw 0;
 }
 
-.banners-figure{
+.bannersFigure{
     width: 40%;
     overflow: hidden;
     border-radius: 10px;
 }
 
-.banners-figure img{
+.bannersFigure img{
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.banners-figure :hover{
+.bannersFigure :hover{
     transform: scale(1.1);
     transition: 0.3s;
 }
@@ -114,17 +114,7 @@ body{
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.inicio-categorias{
+/* .inicioCategorias{
     background-color: rgb(74, 60, 128);
     padding: 10px 0;
 }
@@ -154,7 +144,7 @@ body{
 }
 .inicio-categorias ul li a img:hover{
     transform: scale(1.1);
-}
+} */
 
 /* ---------------CATEGORIAS ---------------*/
 
@@ -166,7 +156,7 @@ body{
     
 }
 
-.categorias-linha{
+.categoriasLinha{
     display: flex;
     width: 80%;
     padding: 20px 0;
@@ -179,7 +169,7 @@ body{
     margin-top: 30px;
 }
 
-.categorias-figure{
+.categoriasFigure{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,11 +180,11 @@ body{
     border-radius: 100%;
 }
 
-.categorias-figure img{
+.categoriasFigure img{
     height: 100px;
 }
 
-.categorias-figure:hover{
+.categoriasFigure:hover{
     transform: scale(1.1);
     transition: 0.3s;
     background-color: var(--cor-secundaria);
@@ -202,9 +192,9 @@ body{
 
 
 
-.hover-verde:hover {
+.hoverVerde:hover {
     background-color: rgb(20, 175, 0);
 }
-.hover-primary:hover {
+.hoverPrimary:hover {
     background-color: var(--cor-primaria);
 }
