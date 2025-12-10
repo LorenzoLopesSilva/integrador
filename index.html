@@ -10,15 +10,41 @@
 
 <body>
     <header>
-        <h1 class="headerTitulo">Bem-vindo à Tech Store</h1>
+        <div class="headerItens">
+            <h1 class="headerTitulo">Bem-vindo à Tech Store</h1>
+            <div class="headerPesquisa">
+                <input type="text" class="headerPesquisa" placeholder="Pesquisar produto">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                        stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="headerIcones">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="cart">
+                    <path
+                        d="M6.29977 5H21L19 12H7.37671M20 16H8L6 3H3M9 20C9 20.5523 8.55228 21 8 21C7.44772 21 7 20.5523 7 20C7 19.4477 7.44772 19 8 19C8.55228 19 9 19.4477 9 20ZM20 20C20 20.5523 19.5523 21 19 21C18.4477 21 18 20.5523 18 20C18 19.4477 18.4477 19 19 19C19.5523 19 20 19.4477 20 20Z"
+                        stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="user">
+                    <path
+                        d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18.5c-4.694 0-8.5-3.806-8.5-8.5S7.306 3.5 12 3.5s8.5 3.806 8.5 8.5-3.806 8.5-8.5 8.5zm0-8c-3.038 0-5.5 1.728-5.5 3.5s2.462 3.5 5.5 3.5 5.5-1.728 5.5-3.5-2.462-3.5-5.5-3.5zm0-.5c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3z" />
+                </svg>
+
+            </div>
+        </div>
+
         <nav class="headerNav">
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="./produtos/produtos.html">Produtos</a></li>
                 <li><a href="./categorias/categorias-menu.html">Categorias</a></li>
                 <li><a href="#sobre">Sobre Nós</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+        </nav>
+
     </header>
     <main>
         <section id="inicio">
@@ -31,35 +57,40 @@
         <section class="linhaProdutos">
             <div class="cardProduto">
                 <figure>
-                    <img src="https://images0.kabum.com.br/produtos/fotos/873590/monitor-gamer-curvo-husky-boreal-27-fhd-180hz-1ms-adaptive-sync-va-displayport-e-hdmi-hdr-hmg00527pt_1762779845_m.jpg" alt="Produto 1">
+                    <img src="https://images0.kabum.com.br/produtos/fotos/873590/monitor-gamer-curvo-husky-boreal-27-fhd-180hz-1ms-adaptive-sync-va-displayport-e-hdmi-hdr-hmg00527pt_1762779845_m.jpg"
+                        alt="Produto 1">
                 </figure>
                 <h3>Monitor Gamer Curvo Husky Boreal 27"</h3>
                 <p>R$ 2.499,00</p>
             </div>
             <div class="cardProduto">
                 <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
+                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                        alt="Produto 1">
                 </figure>
                 <h3>Placa de Video RX6600</h3>
                 <p>R$ 2.499,00</p>
             </div>
             <div class="cardProduto">
                 <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
+                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                        alt="Produto 1">
                 </figure>
                 <h3>Placa de Video RX6600</h3>
                 <p>R$ 2.499,00</p>
             </div>
             <div class="cardProduto">
                 <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
+                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                        alt="Produto 1">
                 </figure>
                 <h3>Placa de Video RX6600</h3>
                 <p>R$ 2.499,00</p>
             </div>
             <div class="cardProduto">
                 <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
+                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                        alt="Produto 1">
                 </figure>
                 <h3>Placa de Video RX6600</h3>
                 <p>R$ 2.499,00</p>
@@ -69,10 +100,11 @@
 
         <section class="banners">
             <figure class="bannersFigure">
-                <img src="https://img.myloview.com.br/posters/web-html-coding-website-banner-700-248500943.jpg" alt="Banner 1">
+                <img src="./img/monte-seu-computador.png" alt="Banner 1">
             </figure>
             <figure class="bannersFigure">
-                <img src="https://img.myloview.com.br/posters/web-html-coding-website-banner-700-248500943.jpg" alt="Banner 2">
+                <img src="https://img.myloview.com.br/posters/web-html-coding-website-banner-700-248500943.jpg"
+                    alt="Banner 2">
             </figure>
         </section>
 
@@ -80,82 +112,92 @@
             <h2>Produtos em destaque</h2>
             <div class="linhaProdutos">
                 <div class="cardProduto">
-                <figure>
-                    <img src="https://images0.kabum.com.br/produtos/fotos/873590/monitor-gamer-curvo-husky-boreal-27-fhd-180hz-1ms-adaptive-sync-va-displayport-e-hdmi-hdr-hmg00527pt_1762779845_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Monitor Gamer Curvo Husky Boreal 27"</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            
+                    <figure>
+                        <img src="https://images0.kabum.com.br/produtos/fotos/873590/monitor-gamer-curvo-husky-boreal-27-fhd-180hz-1ms-adaptive-sync-va-displayport-e-hdmi-hdr-hmg00527pt_1762779845_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Monitor Gamer Curvo Husky Boreal 27"</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+
             </div>
 
             <div class="linhaProdutos">
                 <div class="cardProduto">
-                <figure>
-                    <img src="https://images0.kabum.com.br/produtos/fotos/873590/monitor-gamer-curvo-husky-boreal-27-fhd-180hz-1ms-adaptive-sync-va-displayport-e-hdmi-hdr-hmg00527pt_1762779845_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Monitor Gamer Curvo Husky Boreal 27"</h3>
-                <p>R$ 2.499,00</p>
+                    <figure>
+                        <img src="https://images0.kabum.com.br/produtos/fotos/873590/monitor-gamer-curvo-husky-boreal-27-fhd-180hz-1ms-adaptive-sync-va-displayport-e-hdmi-hdr-hmg00527pt_1762779845_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Monitor Gamer Curvo Husky Boreal 27"</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+                <div class="cardProduto">
+                    <figure>
+                        <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg"
+                            alt="Produto 1">
+                    </figure>
+                    <h3>Placa de Video RX6600</h3>
+                    <p>R$ 2.499,00</p>
+                </div>
+
             </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            <div class="cardProduto">
-                <figure>
-                    <img src="https://images4.kabum.com.br/produtos/fotos/235984/placa-de-video-asrock-amd-radeon-rx-6600-cld-8g-8gb-90-ga2rzz-00uanf_1634738812_m.jpg" alt="Produto 1">
-                </figure>
-                <h3>Placa de Video RX6600</h3>
-                <p>R$ 2.499,00</p>
-            </div>
-            
-            </div>
-            
+
 
         </section>
 
@@ -187,7 +229,7 @@
         </nav> -->
     </main>
     <footer>
-        <p>&copy; 2024 Tech Store. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Tech Store. Todos os direitos reservados.</p>
     </footer>
 </body>
 
