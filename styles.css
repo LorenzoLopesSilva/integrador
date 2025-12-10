@@ -207,7 +207,7 @@ footer{
 }
 
 .categorias > h2{
-    font-size: 1.5vw;
+    font-size: 1.2em;
     margin-top: 15px;
 }
 
@@ -236,7 +236,7 @@ footer{
 }
 
 .categoriasFigure img{
-    height: 100px;
+    height: 7vw;
 }
 
 .categoriasFigure:hover{
