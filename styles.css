@@ -112,6 +112,10 @@ header a{
     
 }
 
+main{
+    min-height: 90vh;
+}
+
 .headerNav ul li a:hover {
     color: rgb(0, 0, 0);
 }
