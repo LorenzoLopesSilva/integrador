@@ -16,10 +16,14 @@ header{
     background-color: rgb(1, 1, 156);
 
 }
+header a{
+    text-decoration: none;
+}
 .headerTitulo{
     color: aliceblue;
     padding: 20px;
     font-size: 2vw;
+    
 }
 
 .headerItens{
@@ -141,7 +145,17 @@ header{
     }
 }
 
-.linhaProdutos .cardProduto{
+.linhaProdutosInicio{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5vw;
+    a{
+        text-decoration: none;
+        color: black;
+    } 
+}
+
+.cardProduto{
     background-color: white;
     width: 15%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -152,13 +166,13 @@ header{
     
 }
 
-.linhaProdutos .cardProduto:hover{
+.cardProduto:hover{
     transform: scale(1.05);
     transition: 0.3s;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.linhaProdutos .cardProduto img{
+.cardProduto img{
     width: 80%;
     object-fit: contain;
 }
