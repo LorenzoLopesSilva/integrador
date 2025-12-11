@@ -291,3 +291,57 @@ footer{
     font-size: 1.5vw;
     margin-top: 10px;
 }
+
+/* ----------- Página de Produtos -----------*/
+.produtoContainer{
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+
+
+}
+.produtoContainer figure {
+    width: 50%;
+    
+}
+.produtoContainer img {
+    width: 100%;
+    
+}
+
+
+.produtoConteudo{
+    width: 40%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.produtoConteudo p {
+    width: 85%;
+    margin: 15px 0 0 5px;
+}
+
+.produtoPreco{
+    font-size: 1.3vw;
+}
+.produtoConteudo button {
+    width: 100%;
+    height: 2vw;
+    border: none;
+    background-color: var(--cor-secundaria);
+    color: aliceblue;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-weight: bold;
+    &:hover{
+        background-color: var(--cor-primaria);
+    }
+}
