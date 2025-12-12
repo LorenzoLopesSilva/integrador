@@ -321,11 +321,13 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     text-align: justify;
+    font-size: 1vw;
 }
 
 .produtoConteudo p {
     width: 85%;
     margin: 15px 0 0 5px;
+    
 }
 
 .produtoPreco{
@@ -337,13 +339,34 @@ footer{
     border: none;
     background-color: var(--cor-secundaria);
     color: aliceblue;
-    font-size: 1rem;
+    font-size: 1vw;
     border-radius: 5px;
     border: solid 1px black;
     font-weight: bold;
     &:hover{
         background-color: var(--cor-primaria);
     }
+}
+
+.precoQuantidade{
+    display: flex;
+    
+}
+
+.quantidade{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.quantidade button{
+    width: 3vw;
+}
+
+.quantidade p {
+    margin: 0;
+    text-align: center;
 }
 
 /* ---------- Login ----------- */
@@ -426,6 +449,13 @@ footer{
         color: var(--cor-secundaria);
         font-weight: bold;
     }
+}
+
+.admRoute{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    margin-left: 47vw;
+    font-size: 1vw;
 }
 
 /* ------------- Contato -------------- */
