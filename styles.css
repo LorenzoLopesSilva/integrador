@@ -530,3 +530,40 @@ footer{
     padding: 7px 0;
     text-align: center;
 }
+
+.checkoutContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    width: 30%;
+    height: 10vw;
+    margin: 20px auto;
+    color: aliceblue;
+    padding: 20px;
+    
+
+}
+
+.checkoutContainer h3{
+    font-size: 1rem;
+    margin: 30px;
+}
+
+.checkoutContainer a{
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+}
+
+.finalizar {
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    margin-right: 4vw;
+
+}
+.cancelar{
+    background-color: rgb(161, 0, 0);
+    padding: 10px;
+}
