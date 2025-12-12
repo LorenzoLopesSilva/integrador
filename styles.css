@@ -480,7 +480,53 @@ footer{
     align-items: center;
     gap: 20px;
     text-align: justify;
-    
 
+}
 
+/* Carrinho */
+.carrinhoContainer{
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+.linhaCarrinho{
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 30%;
+   
+}
+.cardCarrinho{
+    width: 100%;
+}
+
+.carrinhoTexto{
+    width: 40%;
+    height: 10vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    background-color: var(--fundo);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    gap: 10px;
+
+}
+
+.carrinhoTexto h3{
+    text-align: center;
+    margin: 10px;
+}
+
+.carrinhoTexto a {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor-secundaria);
+    padding: 7px 0;
+    text-align: center;
 }
