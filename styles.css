@@ -428,3 +428,59 @@ footer{
     }
 }
 
+/* ------------- Contato -------------- */
+.contatoContainer{
+    margin: 20px auto;
+    background-color: var(--cor-secundaria);
+    width: 30%;
+    color: aliceblue;
+    padding: 1%;
+    border-radius: 10px;
+    
+}
+.contatoForm{
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10%;
+}
+.contatoForm label{
+    margin-top: 20px;
+}
+.contatoForm input{
+    height: 1.5vw;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+
+.contatoForm textarea{
+    height: 3vw;
+    padding: 5px;
+}
+
+.contatoForm button{
+    margin-top: 10px;
+    background-color: var(--cor-primaria);
+    padding: 10px;
+    border: none;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+/* ------------ Sobre Nós ------------ */
+
+.sobreNosContainer{
+    margin: 20px auto;
+    width: 30%;
+    padding: 2% 5%;
+    background-color: var(--cor-secundaria);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    
+
+
+}
