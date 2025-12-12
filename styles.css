@@ -597,3 +597,28 @@ footer{
     background-color: rgb(161, 0, 0);
     padding: 10px;
 }
+
+/* ------------ Adm ------------- */
+
+.admHeader{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+.admHeader a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.admContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
